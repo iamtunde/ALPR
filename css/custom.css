@@ -1,0 +1,112 @@
+<!--  zeeshan updates -->
+body{
+font-family:"Courier New", Courier, monospace;
+font-size:14px
+}
+.actionSpan{float:right; margin:2px 0px 0px 0px; padding:5px;}
+
+table.bidding_table tr th{
+	font-weight:bold;
+	font-size:14px;
+	color:#000000;
+	height:40px;
+	border:solid #999999 1px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 5px;
+}
+ul#sortable{margin:0px; padding:0px; list-style:none; list-style-type:none;}
+
+ul#sortable li{cursor:move; margin-bottom:3px;}
+
+#container input{-moz-border-radius: 6px;-webkit-border-radius: 6px;-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);}
+
+table.bidding_table td.auction_values{
+	background:#336699;
+	color:#FFFFFF;
+	padding:2px;
+}
+div.biddingList{
+	border:solid  #CCCCCC 1px;
+	color:#000;
+	-webkit-border-radius: 10px;
+	text-align:center;
+	-moz-border-radius: 10px;
+	font-family:"Courier New", Courier, monospace;
+	font-size:14px;
+	border-radius: 10px;
+	padding:2px;
+	height:40px;
+}
+
+#message{ color:#009933; font-size:14px; font-weight:bold;}
+
+#faceBoxmessage{ color:#009933; font-size:14px; font-weight:bold;}
+
+div.biddingList .bidDiv{ float:left;}
+
+table.bidding_table tr td{ 
+	color:#000000;
+	padding:2px;
+}
+	
+table.bidding_table tr th.hover:hover{
+
+	cursor:pointer;
+	background:#99CC99;
+}
+table.bidding_table tr th.selected{
+
+	background:#99CC99;
+}
+.button, .button:visited {
+	background: #222 url (../img/overlay.png) repeat-x;
+	display: inline-block; 
+	padding: 5px 10px 6px; 
+	color: #fff; 
+	text-decoration: none;
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+	cursor: pointer
+}
+.actionSpan a{font-family:"Courier New", Courier, monospace; }
+.button:hover { background-color: #111; color: #fff; }
+.button:active { top: 1px; }
+.button, .button:visited,
+
+.blue { background-color:#E0E0E0;color:#fff;font-size:14px; padding:16px; height:85px; cursor:auto; margin-bottom:8px; width:300px; }
+
+.small.button, .small.button:visited { font-size: 14px; }
+												
+
+.remove.button, .remove.button:visited{ 
+												background-color:#CCCCCC;
+												font-size: 12px;
+												text-align:center;
+												color: #000;
+												padding-top:6px;
+												cursor:pointer;
+												width:45px; height:4px; }
+
+.add.button, .add.button:visited{ 
+												background-color:#006699;
+												font-size: 12px;
+												text-align:center;
+												color: #fff;
+												padding-top:6px;
+												cursor:pointer;
+												width:45px; height:4px; }
+
+.update.button, .update.button:visited{ 
+												background-color:#CCCCCC;
+												font-size: 12px;
+												text-align:center;
+												color: #000;
+												padding-top:6px;
+												cursor:pointer;
+												width:45px; height:4px; }
